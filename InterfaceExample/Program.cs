@@ -2,9 +2,7 @@
 
 using InterfaceExample;
 
-IWelcomeEmailSender emailSender = new TextEmailSender();
+Member member = new Member();
 
-Membership membership = new Membership(emailSender);
-membership.Signup("abc@gmail.com", "1234");
-
+((IMember)member).Print("Salam");
 
