@@ -20,9 +20,5 @@ IList< Dictionary<string,object> > data = dataUtility.DataRead(sql, parameters);
 
 foreach(var item in data)
 {
-    foreach(var parameter in item)
-    {
-
-    }
     Console.WriteLine($"ID: {item["ID"]}, Name: {item["Name"]},Class: {item["Class"]}");
 }
