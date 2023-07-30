@@ -2,9 +2,7 @@
 
 using GenericExample;
 
-Coordinate<int,string> coordinate = new Coordinate<int,string>();
+Coordinate<Student, Parent> coordinate = new Coordinate<Student, Parent>();
 
-coordinate.Age= 1;
-coordinate.Name = "Hasan";
 
-Console.WriteLine(coordinate.Name);
+
