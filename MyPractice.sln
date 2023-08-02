@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionExamples", "Colle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoDottNett", "AdoDottNett\AdoDottNett.csproj", "{F65B6BB5-E623-4619-BC37-9EAAC2AB9C0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkExample", "EntityFrameWorkExample\EntityFrameWorkExample.csproj", "{18CAB2C0-61F0-42AF-AB0D-FE0507F6B7E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameWorkExample", "EntityFrameWorkExample\EntityFrameWorkExample.csproj", "{18CAB2C0-61F0-42AF-AB0D-FE0507F6B7E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{88193F86-BBBD-44CB-9BA5-F4CDBBD602BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{18CAB2C0-61F0-42AF-AB0D-FE0507F6B7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18CAB2C0-61F0-42AF-AB0D-FE0507F6B7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18CAB2C0-61F0-42AF-AB0D-FE0507F6B7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88193F86-BBBD-44CB-9BA5-F4CDBBD602BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88193F86-BBBD-44CB-9BA5-F4CDBBD602BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88193F86-BBBD-44CB-9BA5-F4CDBBD602BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88193F86-BBBD-44CB-9BA5-F4CDBBD602BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

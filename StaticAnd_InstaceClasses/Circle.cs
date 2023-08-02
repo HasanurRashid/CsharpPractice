@@ -24,5 +24,10 @@ namespace StaticAnd_InstaceClasses
             return _pi * _radious * _radious;
         }
 
+        public static void Doo()
+        {
+          throw new NotImplementedException();
+        }
+
     }
 }
