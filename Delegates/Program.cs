@@ -5,7 +5,7 @@
 using Delegates;
 using static Delegates.Employee;
 
-IsPromotable isPromotable = new IsPromotable(UserClass.Promote);
+//IsPromotable isPromotable = new IsPromotable(UserClass.Promote);
 
 
 
@@ -18,7 +18,8 @@ employeeList.Add(new Employee() { Id = 201, Name = "Tareq", Salary = 30000 });
 employeeList.Add(new Employee() { Id = 201, Name = "Aziz", Salary = 40000 });
 employeeList.Add(new Employee() { Id = 201, Name = "Hasan vai", Salary = 50000 });
 
-Employee.PromotedEmployee(employeeList, isPromotable);
+//Employee.PromotedEmployee(employeeList, isPromotable);
+Employee.PromotedEmployee(employeeList, emp =>emp.Salary>500);
 
 
 

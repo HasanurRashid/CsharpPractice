@@ -9,11 +9,11 @@ namespace Delegates
     
     public static class UserClass
     {
-        public  static bool Promote(Employee emp)
-        {
-            if(emp.Salary>500) return true; else return false;
+        //public  static bool Promote(Employee emp)
+        //{
+        //    if(emp.Salary>500) return true; else return false;
 
-        }
+        //}
        
     }
 
