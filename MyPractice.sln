@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameWorkExample", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{88193F86-BBBD-44CB-9BA5-F4CDBBD602BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{594DA5FF-C869-4FF9-B310-83175A67D31F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{594DA5FF-C869-4FF9-B310-83175A67D31F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCastDelegate", "MultiCastDelegate\MultiCastDelegate.csproj", "{4B3DAD76-DC9C-4E09-8D10-FFE175E58B15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{594DA5FF-C869-4FF9-B310-83175A67D31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{594DA5FF-C869-4FF9-B310-83175A67D31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{594DA5FF-C869-4FF9-B310-83175A67D31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3DAD76-DC9C-4E09-8D10-FFE175E58B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3DAD76-DC9C-4E09-8D10-FFE175E58B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3DAD76-DC9C-4E09-8D10-FFE175E58B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3DAD76-DC9C-4E09-8D10-FFE175E58B15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
