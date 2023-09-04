@@ -1,11 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityFrameWorkExample
+namespace EntityFrameworkExamples
 {
     public class StudentDbContext : DbContext
     {
@@ -16,13 +16,13 @@ namespace EntityFrameWorkExample
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if(!optionsBuilder.IsConfigured)
+            if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer(_connectionString);
             }
-           
+
         }
-      public  DbSet<Student> Students { get; set; }    
-      public  DbSet<Course> Courses { get; set; }    
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Course> Courses { get; set; }
     }
 }
