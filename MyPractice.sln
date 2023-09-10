@@ -53,7 +53,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "Except
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkExamples", "EntityFrameworkExamples\EntityFrameworkExamples.csproj", "{B6111824-3BB9-477B-AE7D-64AB2992649A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertNumbersToInword", "ConvertNumbersToInword\ConvertNumbersToInword.csproj", "{21C602FE-C7FB-4563-BC9E-EB50037D634E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertNumbersToInword", "ConvertNumbersToInword\ConvertNumbersToInword.csproj", "{21C602FE-C7FB-4563-BC9E-EB50037D634E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegatee", "Delegatee\Delegatee.csproj", "{C8F84DC1-429C-4B4B-885D-31A596E4689D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{E02D0DE9-20FB-45ED-A05E-2D5311C74FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LateBingingUsingReflection", "LateBingingUsingReflection\LateBingingUsingReflection.csproj", "{BADC3C59-8FDD-4F6D-AB77-98C1E5A7980A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,18 @@ Global
 		{21C602FE-C7FB-4563-BC9E-EB50037D634E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21C602FE-C7FB-4563-BC9E-EB50037D634E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21C602FE-C7FB-4563-BC9E-EB50037D634E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F84DC1-429C-4B4B-885D-31A596E4689D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F84DC1-429C-4B4B-885D-31A596E4689D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F84DC1-429C-4B4B-885D-31A596E4689D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F84DC1-429C-4B4B-885D-31A596E4689D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02D0DE9-20FB-45ED-A05E-2D5311C74FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02D0DE9-20FB-45ED-A05E-2D5311C74FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02D0DE9-20FB-45ED-A05E-2D5311C74FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02D0DE9-20FB-45ED-A05E-2D5311C74FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADC3C59-8FDD-4F6D-AB77-98C1E5A7980A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADC3C59-8FDD-4F6D-AB77-98C1E5A7980A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADC3C59-8FDD-4F6D-AB77-98C1E5A7980A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADC3C59-8FDD-4F6D-AB77-98C1E5A7980A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
