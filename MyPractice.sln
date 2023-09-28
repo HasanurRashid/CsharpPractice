@@ -61,9 +61,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LateBingingUsingReflection", "LateBingingUsingReflection\LateBingingUsingReflection.csproj", "{BADC3C59-8FDD-4F6D-AB77-98C1E5A7980A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToString", "ConvertToString\ConvertToString.csproj", "{DAC41E6F-7C71-4BED-BD25-BBDF734EFE58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertToString", "ConvertToString\ConvertToString.csproj", "{DAC41E6F-7C71-4BED-BD25-BBDF734EFE58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderVSsystemObject", "StringBuilderVSsystemObject\StringBuilderVSsystemObject.csproj", "{454544CE-8484-4BF3-B6B1-B4C37D5989EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderVSsystemObject", "StringBuilderVSsystemObject\StringBuilderVSsystemObject.csproj", "{454544CE-8484-4BF3-B6B1-B4C37D5989EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioCodeSnippet", "VisualStudioCodeSnippet\VisualStudioCodeSnippet.csproj", "{3FB4270B-AED1-48FE-98A7-0CCC6FACD49A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{454544CE-8484-4BF3-B6B1-B4C37D5989EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{454544CE-8484-4BF3-B6B1-B4C37D5989EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{454544CE-8484-4BF3-B6B1-B4C37D5989EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB4270B-AED1-48FE-98A7-0CCC6FACD49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB4270B-AED1-48FE-98A7-0CCC6FACD49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB4270B-AED1-48FE-98A7-0CCC6FACD49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB4270B-AED1-48FE-98A7-0CCC6FACD49A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
